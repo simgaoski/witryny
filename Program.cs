@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace ConsoleApp
 {
@@ -8,8 +8,8 @@ namespace ConsoleApp
         {
             Console.Write("Podaj liczbę n: ");
             int n = int.Parse(Console.ReadLine());
-            int wynik = n * n + 1;
-            Console.WriteLine($"Wynik n^2 + 1 to: {wynik}");
+            int wynik = n * n;
+            Console.WriteLine($"Wynik n^2 to: {wynik}");
         }
     }
 }
